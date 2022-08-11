@@ -9,7 +9,7 @@ engine = create_engine(DB_CONNSTR) if DB_CONNSTR else None
 meta = MetaData(engine)
 Base = declarative_base(metadata=meta)
 
-TABLENAME = "history"
+TABLENAME = "history "
 
 
 class SpotipyOut(Base):

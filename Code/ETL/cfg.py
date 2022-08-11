@@ -1,5 +1,6 @@
 from decouple import RepositoryIni, Config
 
+
 config = Config(RepositoryIni("settings.ini"))
 
 CLIENT_ID = config("CLIENT_ID")
